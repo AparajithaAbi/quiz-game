@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quiz2.css">
+    <link rel="stylesheet" href="quiz2_score.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="quiz">
+        <div class="landing-page index">
+            <h1>QUIZTOPIA</h1>
+            <button type="button" class="start-button">Start</button>
+            <i class="fa-solid fa-arrow-right-long right-arrow"></i>
+        </div>
+        
+
+        <div class="topics ">
+            <div class="name-cap">
+                <h1>QUIZTOPIA</h1>
+                <p>World of endless curiosity</p>
+            </div>
+           
+            <div class="all-topics">
+                <div class="topic1 topic gk-topic" data-topic="gk">
+                    <img src="brain.png" alt="" class="neon-img brain">
+                    <h1 class="gk-topic-h1">General Knowledge</h1>
+                    <i class="fa-solid fa-chevron-right chevron-gk"></i>
+                </div>
+                <div class="topic2 topic geo-topic" data-topic="geo">
+                    <img src="planet.png" alt="" class="neon-img planet" >
+                    <h1 class="geo-topic-h1">Geography</h1>
+                    <i class="fa-solid fa-chevron-right chevron-geo"></i>
+                    
+                </div>
+                <div class="topic3 topic his-topic" data-topic="history">
+                    <img src="collosium.png" alt="" class="neon-img collosium">
+                    <h1 class="his-topic-h1">History</h1>
+                    <i class="fa-solid fa-chevron-right chevron-his"></i>
+                </div>
+                <div class="topic4 topic tech-topic" data-topic="tech">
+                    <img src="tech.png" alt="" class="neon-img tech">
+                    <h1 class="tech-topic-h1">Technology</h1>
+                    <i class="fa-solid fa-chevron-right chevron-tech"></i>
+                </div>
+                <div class="topic5 topic sci-topic" data-topic="science">
+                    <img src="atom.png" alt="" class="neon-img science">
+                    <h1 class="sci-topic-h1">Science</h1>
+                    <i class="fa-solid fa-chevron-right chevron-sci"></i>
+                </div>
+            </div>
+            
+        </div>
+        <!-- <button type="button"></button> -->
+
+        <div class="take-quiz ">
+            <div class="timer-display">
+                <div class="running-timer"></div>
+                <i class="fa-regular fa-clock"></i>
+                <div class="seconds"></div>
+            </div>
+        
+            <div class="qsn-opts-next">
+                <div class="qsn-num-disp">Question 1/10</div>
+                <div class="qsn-disp">What is the name of the process of encoding information in a way that only authorized parties can access it?</div>
+                <div class="opts-next">
+                    <div class="opts-disp">
+                        <div class="opt-1 opt">
+                            <p class="opt-p">The Botanical Gardens</p>
+                            <i class="fa-solid fa-circle-check check-1-const check-1"></i>
+                        </div>
+                        <div class="opt-2 opt">
+                            <p class="opt-p">The Aquariam of thai</p>
+                            <i class="fa-solid fa-circle-check check-2-const check-2"></i>
+                        </div>
+                        <div class="opt-3 opt">
+                            <p class="opt-p">The Science Museum</p>
+                            <i class="fa-solid fa-circle-check check-3-const check-3"></i>
+                        </div>
+                        <div class="opt-4 opt">
+                            <p class="opt-p">The Olympic Stadium</p>
+                            <i class="fa-solid fa-circle-check check-4-const check-4"></i>
+                        </div>
+                    </div>
+                    <button type="button" class="next-btn">Next</button>
+                </div>    
+            </div>
+          
+        </div>
+
+        <div class="show-result ">
+            <div class="score">
+                <h4>Your score</h4>
+                <p>10/15</p>
+                <img src="rabbit.png" alt="" class="popper">
+                <button type="button" class="retry-btn">Retry</button>
+                <i class="fa-solid fa-arrow-right-long left-arrow"></i>
+        </div>
+            
+            
+            
+           
+        </div>
+    </div>
+
+   
+</body>
+<script src="quiz2_qsns.js"></script>
+<script src="quiz2_code.js"></script>
+</html>

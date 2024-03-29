@@ -1,0 +1,252 @@
+.show-result{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #818FB4;
+    z-index: 0;
+    /* border: 1px solid red; */
+}
+
+.score h4{
+    text-align: center;
+    font-size: 24px;
+    /* padding: 16px; */
+}
+.score p{
+    text-align: center;
+    font-size: 64px;
+    padding: 0%;
+    margin: 0%;
+}
+.popper{
+    /* margin: auto; */
+    /* margin-left: 20%; */
+    width: 400px;
+    margin-bottom: 64px;
+}
+.score{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-arrow{
+    /* display: none; */
+    /* position: absolute; */
+    /* bottom: 5%; */
+    /* left: 16%; */
+    font-size: 24px;
+    padding: 16px;
+    border-radius: 50%;
+    transform: rotate(180deg);
+    margin-left: -70%;
+    margin-bottom: -32px;
+    /* botransform: rotate(180deg);rder: 1px solid black; */
+    /* background-color: rgba(0,0,0,0.2); */
+
+}
+.left-arrow:hover{
+    /* font-size: 7px; */
+    background-color: rgba(0,0,0,0.2);
+}
+
+.retry-back-btns{
+    margin-top: 40px;
+}
+.retry-btn{
+     width: 100px;
+    /* display: block; */
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    /* border: 1px solid black; 
+    margin: auto; */
+    margin-top:32px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.4);
+    color:white; 
+} 
+.retry-btn:hover{
+    background-color: black;
+}
+.back-btn:hover{
+    background-color: black;
+}
+.retry-btn:active{
+    transform: scale(0.97);
+}
+.back-btn:active{
+    transform: scale(0.97);
+}
+.logo-page{
+    position: absolute;
+    height: 100%;
+    background-image:url("zootopia.jpg");
+}
+
+
+
+
+.topics {
+    
+    background-color: black;
+    /* z-index: 2; */
+    height: 100vh;
+    width: 100vw;
+    /* border: 1px solid black; */
+    position: absolute;
+    z-index: 0;
+    
+}
+.name-cap{
+    height: 20vh;
+}
+.topics h1{
+    
+    font-size: 48px;
+    text-align: center;
+    /* padding: 0px 0px; */
+    padding-top: 32px;
+    font-weight: 900;
+    color: white;
+    
+}
+.topics p{
+    color: white;
+    text-align: center;
+}
+.topic h1{
+    font-size: 20px;
+}
+.topic2 h1{
+    padding-left: 24px;
+}
+.topic3 h1{
+    padding-left: 8px;
+}
+.topic4 h1{
+    padding-left: 8px;
+}
+.topic5 h1{
+    padding-left: 24px;
+}
+.topic{
+    /* border: 1px solid white; */
+    height: 100px;
+    width: 90%;
+    border-radius: 16px;
+    background-color: rgb(50, 50, 50);
+    display: flex;
+    position: relative;
+    transition: 0.5s;
+
+    /* background-image:linear-gradient(to right ,black,rgb(60, 60, 60)) ; */
+}
+.topic:active{
+    transform: scale(0.98);
+}
+.topic:hover{
+    transform: scale(1.05);
+}
+
+.all-topics{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 32px;
+    transition: 0.5s;
+}
+.neon-img{
+    width: 100px;
+}
+.brain{
+    height: 150px;
+    width: 150px;
+    margin-left: -24px;
+    margin-top: -20px;
+}
+.collosium{
+    width: 135px;
+    /* margin-top: -16px; */
+    margin-left: -16px;
+}
+.tech{
+    width: 130px;
+    margin-top: -24px;
+    margin-left: -16px;
+}
+.fa-chevron-right{
+    position: absolute;
+    /* left: 10px; */
+    right: 8%;
+    top: 40%;
+    color: white;
+}
+.landing-page{
+    /* display: none; */
+    position: absolute;
+    z-index:0;
+    /* background-image: url("zootopia.jpg");
+    background-position: center;   
+    background-size: cover;  */
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: 7; */
+    /* display: block; */
+}
+.landing-page h1{
+    font-size: 54px;
+    text-align: center;
+    /* font-weight: bolder; */
+        background-color: #f3ec78;
+        background-image: linear-gradient(180deg,#9adf60, #4ea9a5);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+        padding-bottom: 32px;
+}
+.start-button{
+    width: 80px;
+    font-size:20px ;
+    padding: 8px 16px;
+    border-radius: 32px;
+    background-color:white;
+    /* opacity: 0.8; */
+    color:#3c8784;
+    border: none;
+    /* margin: auto; */
+
+}
+.landing-page button:active{
+    transform: scale(0.98);
+}
+.right-arrow{
+    position: absolute;
+    bottom: 8%;
+    right: 10%;
+    font-size: 32px;
+    color: black;
+}
+.index{
+    z-index: 2;
+}
+.quiz, .take-quiz, .show-result, .landing-page, .topics {
+    overflow: hidden;
+}
+.correct-ans{
+    background-color: rgba(0, 130,100,0.3);
+}
+.wrong-ans{
+    background-color: rgba(150,30,50,0.3);
+}
